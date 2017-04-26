@@ -169,3 +169,16 @@
 [25-Apr-2017 22:33:35 Asia/Tokyo] PHP  53. Illuminate\View\View->getContents() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/View/View.php:118
 [25-Apr-2017 22:33:35 Asia/Tokyo] PHP  54. Illuminate\View\Engines\CompilerEngine->get() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/View/View.php:147
 [25-Apr-2017 22:33:35 Asia/Tokyo] PHP  55. Illuminate\View\Engines\PhpEngine->evaluatePath() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:58
+[26-Apr-2017 16:05:57 Asia/Tokyo] PHP Fatal error:  Class 'Thomaswelton\LaravelGravatar\LaravelGravatarServiceProvider' not found in /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[26-Apr-2017 16:05:57 Asia/Tokyo] PHP Stack trace:
+[26-Apr-2017 16:05:57 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/microposts/server.php:0
+[26-Apr-2017 16:05:57 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/microposts/server.php:21
+[26-Apr-2017 16:05:57 Asia/Tokyo] PHP   3. Illuminate\Foundation\Http\Kernel->handle() /home/ubuntu/workspace/microposts/public/index.php:54
+[26-Apr-2017 16:05:57 Asia/Tokyo] PHP   4. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+[26-Apr-2017 16:05:57 Asia/Tokyo] PHP   5. Illuminate\Foundation\Http\Kernel->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:117
+[26-Apr-2017 16:05:57 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:222
+[26-Apr-2017 16:05:57 Asia/Tokyo] PHP   7. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[26-Apr-2017 16:05:57 Asia/Tokyo] PHP   8. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[26-Apr-2017 16:05:57 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[26-Apr-2017 16:05:57 Asia/Tokyo] PHP  10. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[26-Apr-2017 16:05:57 Asia/Tokyo] PHP  11. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
