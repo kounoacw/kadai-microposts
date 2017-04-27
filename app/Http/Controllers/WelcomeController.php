@@ -28,10 +28,7 @@ class WelcomeController extends Controller
         }
         //return view('welcome', $data);
         
-        return view('welcome', [
-            'user' => $user,
-            'microposts' => $microposts,
-        ]);
+        return view('welcome', $data);
     }
 
     /**
