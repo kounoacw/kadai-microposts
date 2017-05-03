@@ -11,6 +11,8 @@
                     </div>
                     {!! Form::submit('Post', ['class' => 'btn btn-primary btn-block']) !!}
                 {!! Form::close() !!}
+                
+                {!! link_to_route('users.favorites', 'Favorites List', null, ['class' => 'btn btn-success btn-block']) !!}
             </aside>
             <div class="col-xs-8">
                 @if (count($microposts) > 0)
